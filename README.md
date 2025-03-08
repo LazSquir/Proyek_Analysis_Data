@@ -1,19 +1,17 @@
-# 🎈 Blank app template
+# Proyek Analisis Data
+## Bayu Pratama Putra
+### Email : bayu.putra@widyatama.ac.id
+### Cohord Id : MC476D5Y0372
+### Group MC-10
 
-A simple Streamlit app template for you to modify!
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Run steamlit app
+```
+streamlit run dashboard.py
+```
